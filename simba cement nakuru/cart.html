@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shopping Cart - Simba Cement</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Your Cart</h1>
+    <nav>
+      <a href="index.html">🏠 Home</a>
+    </nav>
+  </header>
+
+  <section class="cart">
+    <table id="cart-table">
+      <thead>
+        <tr>
+          <th>Product</th>
+          <th>Price (KSh)</th>
+          <th>Remove</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Items will load here -->
+      </tbody>
+    </table>
+
+    <h2 id="total">Total: KSh 0</h2>
+
+    <button onclick="checkout()">📞 Call to Order</button>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
